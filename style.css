@@ -1,0 +1,77 @@
+body{ background-color: aqua;
+text-transform: capitalize;
+
+}
+.danhsachcv{
+    margin:0px;
+}
+.todolist{
+    width:350px;
+    margin :50px auto;
+    border:2px solid #d8dbd3;
+}
+.tieude{
+    text-transform: uppercase;
+    background-color:#2980b9;
+    color: white;
+    font-size: 24px;
+    padding: 6px 20px;
+    margin:0px
+}
+.fa-plus{
+    float:right;
+}
+ul{
+    padding:0px;
+    list-style: none;
+    background-color: #ebe3e3;
+}
+li{
+    line-height: 35px;
+}
+li:nth-child(2n){
+    background-color: #fff;
+}
+input{
+    color:#2980b9!important;
+    font-size:18px!important;
+    text-transform: capitalize;
+    background-color: #f7f7f7;
+    width:100%;
+    padding:8px 8px 8px 20px;
+    border:1px solid #f7f7f7;
+}
+input:focus{
+    background-color:#fff;
+    border:3px solid #2980b9;
+}
+span{
+    background-color: #e74c3c;
+    height: 35px;
+    width: 0px;
+    float:left;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-right:20px;
+    opacity:0;
+    transition: .3s linear;
+    
+    
+}
+li:hover span{
+    width:40px;
+    opacity:1;
+}
+.khiclick{
+    color:gray;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
